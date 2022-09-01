@@ -1,7 +1,7 @@
 body{
 background-color: DarkGray;
-
 }
+
 .maincontainer{
 width: 45%;
 margin: 40px auto;
@@ -16,11 +16,11 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+
 .title{
 color: DarkRed;
 font-size: 25px;
 font-family:  Segoe UI Black;
-
 }
 
 .p{
@@ -29,22 +29,20 @@ font-size: 25px;
 align-content: center;
 font-family:  Segoe UI Black;
 }
+
 .rows{
 margin-bottom: 40px;
 padding-left: 8%;
 box-sizing: border-box;
 }
-.left
-{
+
+.left{
 float:left;
 width:45%;
-
 }
-.right
-{
+.right{
 float:right;
 width:55%;
-
 }
 
 .span{
@@ -59,10 +57,12 @@ width: 100%;
 display: flex;
 flex-flow: column;
 }
+
 .p1{
 color: DarkRed;
 font-size: 13px;
 font-family: Yu Gothic UI Semibold;
+}
 
 .date{
 color: Gray;
@@ -76,27 +76,23 @@ transform: scale(1.2);
 }
 
 
-.commentscontainer{
-background-color: Gainsboro;
-padding-top: 50px;
-box-sizing: border-box;
-width: 100%;
-position: relative;
-text-align: center;
+.comments{
+display: flex;
+justify-content: center;
+
 }
 
-
 textarea{
-padding-left: 10px; !important
-box-sizing: border-box; !important
-width: 90%; !important
-height: 200px; !important
-max-width: 90%; !important
-min-width: 90%; !important
-border-radius: 2px; !important
-border: 1px solid #ccc; !important
-padding-top: 5px; !important
-
+padding-left: 10px; 
+box-sizing: border-box; 
+width: 90%; 
+height: 200px; 
+max-width: 90%; 
+min-width: 90%;
+min-height: 50px; 
+border-radius: 2px; 
+border: 1px solid #ccc; 
+padding-top: 5px; 
 }
 
 input::placeholder {
