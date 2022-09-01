@@ -1,0 +1,103 @@
+body{
+background-color: DarkGray;
+
+}
+.maincontainer{
+width: 45%;
+margin: 40px auto;
+display: flex;
+flex-flow: column;
+}
+
+.header{
+height: 150px;
+background-color: white;
+display: flex;
+align-content: center;
+}
+
+.p{
+color: DarkRed;
+font-size: 25px;
+align-content: center;
+font-family:  Segoe UI Black;
+}
+.questions{
+background-color: Gainsboro;
+width: 100%;
+display: flex;
+flex-flow: column;
+}
+.rows{
+display: flex;
+justify-content: space-around;
+}
+.p1{
+color: DarkRed;
+font-size: 13px;
+font-family: Yu Gothic UI Semibold;
+
+.date{
+color: Gray;
+}
+.ques{
+position: absolute;
+left: 30px;
+}
+.button1{
+transform: scale(1.2);
+}
+
+.a{
+color:red;
+}
+.left{
+display: flex;
+flex-flow: column;
+}
+.right{
+display: flex;
+flex-flow: column;
+}
+
+.commentscontainer{
+background-color: Gainsboro;
+padding-top: 50px;
+box-sizing: border-box;
+width: 100%;
+position: relative;
+text-align: center;
+}
+
+
+.input3{
+padding-left: 10px;
+box-sizing: border-box;
+width: 90%;
+height: 200px;
+max-width: 90%;
+min-width: 90%;
+border-radius: 2px;
+border: 1px solid #ccc;
+padding-top: 5px;
+
+}
+
+input::placeholder {
+color: Silver;
+font-size: 14px;
+}
+
+.submitb{
+margin-top: 25px;
+margin-bottom: 25px;
+background-color: #595959;
+color:White;
+padding: 10px 45px;
+border-radius: 4px;
+border: none;
+font-size: 12px;
+}
+
+
+
